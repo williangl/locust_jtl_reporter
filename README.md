@@ -26,6 +26,9 @@ Execute Locust
 poetry run locust
 ```
 
+Now with locust executing, access the URL `http://localhost:8089/`.
+On this page you can configure how many Users and the Spawn Rate you want.
+
 ## Visualize the Report
 On your browser, access the URL `http://localhost:2020/`
 Log into the JTL Reporter. See [on this page](https://jtlreporter.site/docs/#step-3-thats-it-)
